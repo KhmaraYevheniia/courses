@@ -66,7 +66,7 @@ function* generateIterableSequence(...args) {
     }
 }
 
-const generatorObject = generateIterableSequence('I', 'love', 'EPAM');
+const generatorObject = generateIterableSequence('I', 'love', 'Kharkiv');
 
 for (let value of generatorObject) {
     console.log(value);
