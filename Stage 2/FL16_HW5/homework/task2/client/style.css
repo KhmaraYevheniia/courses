@@ -1,0 +1,69 @@
+.widow-chat {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 700px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.message {
+    width: 65%;
+    height: 33px;
+}
+
+.send-btn {
+    padding: 10px 25px;
+    cursor: pointer;
+    background-color: rgb(160, 52, 152);
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.enter-message {
+    display: flex;
+    justify-content: center;
+}
+
+.style-message {
+    padding: 20px;
+    background-color: rgb(226, 203, 221);
+    width: 30%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.message-time {
+    justify-content: flex-end;
+    display: flex;
+    font-size: 14px;
+}
+
+.user-name {
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.user-message {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.my-message {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 20px;
+    background-color: rgb(189, 176, 224);
+    width: 30%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}

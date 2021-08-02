@@ -1,0 +1,44 @@
+.tweet-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+    font-size: 25px;
+    background-color: rgb(223, 225, 248);
+    padding: 20px;
+    list-style: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    width: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: start;
+    word-wrap: break-word;
+}
+
+.btns-tweet-item {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.btn-remove-tweet {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgb(180, 55, 55);
+}
+
+.btn-liked-tweet {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgb(38, 158, 88);
+    margin-right: 30px;
+
+}
+
+.liked-tweet {
+    background-color: rgb(196, 228, 196);
+    
+}

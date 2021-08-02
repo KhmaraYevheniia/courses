@@ -1,0 +1,351 @@
+:root {
+    --color-main-light: #FFF;
+    --color-main-dark: #000;
+    --bg-color-light: #F3F3F3;
+    --color-footer-text: #9E9E9E;
+    --bg-color-btn: #343638;
+    --bg-separator: #F0F0F0;
+    --footer-accent-text: #E8E8E8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+
+html, body {
+    min-width: 900px;
+}
+
+body {
+    background-color: var(--bg-color-light);
+}
+
+.header-wrap {
+    padding: 30px 60px;
+    color: var(--color-main-light);
+}
+
+.header {
+    background: url('../img/apples.jpg') center / cover no-repeat;
+}
+
+.header-logo {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--color-main-light);
+    letter-spacing: 4px;
+}
+
+.header-navigation-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 60px;
+    list-style: none;
+}
+
+.nav-item:last-child {
+    margin: 0;
+}
+
+.header-nav .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--color-main-light);
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-title {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+.title-symbol {
+    font-size: 100px;
+    font-style: normal;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 200px;
+}
+
+.header-btn {
+    padding: 20px 100px;
+    font-size: 18px;
+    color: var(--color-main-light);
+    background-color: rgba(52, 54, 56, 0.4);
+    border: 3px solid var(--color-main-light);
+    margin-bottom: 10em;
+    cursor: pointer;
+}
+
+.content-wrap {
+    padding: 140px 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-main-dark);
+    background-color: var(--color-main-light);
+}
+
+.content-description {
+    width: 100%;
+}
+
+.decription-title {
+    font-size: 25px;
+    max-width: 50%;
+    padding-right: 10%;
+}
+
+.decription-text {
+    font-size: 18px;
+    max-width: 50%;
+}
+
+.featured-articles {
+    background-color: var(--bg-color-light);
+}
+
+.featured-wrap {
+    padding: 120px 60px 30px;
+}
+
+.featured-header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 4em;
+}
+
+.featured-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.featured-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.featured-item:nth-child(even) .featured-image {
+    background-image: url('../img/sample1.jpg');
+}
+
+.featured-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 40%;
+    font-size: 20px;
+    width: 40%;
+    padding: 20px;
+}
+
+.featured-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    box-shadow: inset 0 0 90px 8px rgba(0, 0, 0, .6);
+    background-image: url('../img/sample.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 375px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.favarite-icon-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.favorite-icon {
+    color: var(--color-main-light);
+    border: 3px solid var(--color-main-light);
+    background-color: rgba(52, 54, 56, 0.4);
+    font-size: 16px;
+    padding: 8px;
+    max-width: max-content;
+    cursor: pointer;
+}
+
+.photo-text {
+    color: var(--color-main-light);
+    font-size: 18px;
+    padding: 20px;
+}
+
+.news-wrap {
+    align-items: center;
+    display: flex;
+    background-color: var(--color-main-light);
+    padding: 40px 50px;
+    margin: 0 60px 60px 60px;
+    margin-bottom: 60px;
+}
+
+.news-header {
+    font-size: 30px;
+    font-weight: normal;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.news-subscribe-form {
+    display: flex;
+    width: 70%;
+}
+
+.input {
+    background-color: var(--bg-color-light);
+    border-radius: 0;
+    width: 100%;
+}
+
+.news-input {
+    height: 60px;
+    padding: 10px 20px;
+    background-color: var(--bg-color-light);
+    border-radius: 0;
+}
+
+.news-input::placeholder {
+    font-size: 16px;
+    color: var(--color-main-dark);
+}
+
+.btn {
+    color: var(--color-main-light);
+    background-color: var(--bg-color-btn);
+    border: none;
+    cursor: pointer;
+}
+
+.news-btn {
+    padding: 21px 25px;
+}
+
+.news-btn:focus {
+    border-radius: 0;
+}
+
+.footer-wrap {
+    padding: 30px 60px;
+    margin: 0 auto;
+    background-color: var(--color-main-light);
+    position: relative;
+}
+
+.footer-description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 8em;
+}
+
+.footer-item {
+    width: 23%;
+}
+
+.footer-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--color-main-dark);
+}
+
+.footer-text {
+    font-size: 16px;
+    color: var(--color-footer-text);
+}
+
+.footer-contact-address {
+    white-space: pre-line;
+}
+
+.footer-item:last-child .footer-text {
+    margin-bottom: 10px;
+}
+
+.footer-subscribe-form {
+    display: flex;
+}
+
+.style-italic {
+    font-style: italic;
+}
+
+.footer-time {
+    color: var(--footer-accent-text);
+    font-style: normal;
+}
+
+.footer-input {
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.footer-input::placeholder {
+    color: var(--color-main-dark);
+}
+
+.footer-btn {
+    padding: 10px 15px;
+}
+
+.footer-nav .nav-link {
+    color: var(--color-main-dark);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid var(--bg-separator);
+    padding-top: 10px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav-item {
+    list-style: none;
+}
+
+.footer-nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: var(--color-main-dark);
+}
+
+.footer-nav-item:last-child .footer-nav-link {
+    margin: 0;
+}
+
+.copyright {
+    color: var(--color-footer-text);
+}

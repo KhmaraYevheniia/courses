@@ -1,0 +1,30 @@
+.game-wrap {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.game-rules {
+  background-color: #d0e7f7;
+  border-radius: 20px;
+  padding: 20px 0;
+
+  &-title {
+    font-size: 30px;
+  }
+
+  &-summary {
+    padding: 0;
+  }
+
+  &-summary-item {
+    list-style: none;
+    font-size: 20px;
+    line-height: 2em;
+  }
+
+  &-text {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}

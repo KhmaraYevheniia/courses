@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>Homework 16 - BOM</title>
+</head>
+
+<body>
+	<div id="root">
+		<div id="alertMessage" class="hidden alert-message"><span id="alertMessageText"></span></div>
+		<div id="tweetContainer" class="listPage">
+			<h1 id="mainHeader">Simple Twitter</h1>
+			<div id="navigationButtons">
+				<button id="addTweetBtn" class="btn btn-add-tweet">Add tweet</button>
+				<button id="likedTweetBtn" class="btn btn-go-liked hidden">Go to liked</button>
+				<button id="backBtn" class="btn btn-back hidden">Back</button>
+			</div>
+			<ul id="list"></ul>
+		</div>
+		<div id="editTweetContainer" class="hidden edit-tweet-container">
+			<h1 id="editTweetHeader">Edit tweet</h1>
+			<textarea id="editTweetInput" class="edit-tweet-input" maxlength="140"></textarea>
+			<div class="formButtons">
+				<button id="cancelBtn" class="btn btn-cancel">Cancel</button>
+				<button id="saveBtn" class="btn btn-save">Save Changes</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
