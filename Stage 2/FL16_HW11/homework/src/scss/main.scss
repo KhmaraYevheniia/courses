@@ -1,0 +1,49 @@
+.hidden {
+    display: none;
+}
+
+.listPage,
+.edit-tweet-container {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.edit-tweet-input {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.btn {
+    border: none;
+    padding: 20px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(45, 126, 129);
+    color: white;
+    cursor: pointer;
+
+    &-cancel {
+        margin-right: 30px;
+    }
+
+    &-back {
+        background-color: rgb(77, 83, 83);
+    }
+
+    &-go-liked {
+        margin-left: 30px;
+    }
+}
+
+.alert-message {
+    position: fixed;
+    width: 30%;
+    background-color: lightgray;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tools</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+</head>
+
+<body>
+  <div class="game-wrap">
+    <div class="game">
+      <div class="game-rules">
+        <h2 class="game-rules-title">Game rules:</h2>
+        <ul class="game-rules-summary">
+          <li class="game-rules-summary-item">Scissors beats a paper</li>
+          <li class="game-rules-summary-item">Paper beats rock</li>
+          <li class="game-rules-summary-item">Rock beats scissors</li>
+        </ul>
+        <p class="game-rules-text">And we play up to three wins!</p>
+      </div>
+      <div class="gameplay">
+        <h1 class="gameplay-title">Let's play!</h1>
+        <div class="gameplay-buttons">
+          <button type="button" data-user-choice="rock" class="gameplay-btn rock-btn"></button>
+          <button type="button" data-user-choice="paper" class="gameplay-btn paper-btn"></button>
+          <button type="button" data-user-choice="scissors" class="gameplay-btn scissors-btn"></button>
+          <a class="reset-link" href="#">Reset</a>
+        </div>
+      </div>
+      <div class="game-result">
+      </div>
+      <div class="visual-result">
+        <div class="visual-result-user visual-result-icon"></div>
+        <span class="visual-result-text">VS</span>
+        <div class="visual-result-computer visual-result-icon"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
